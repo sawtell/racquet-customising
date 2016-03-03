@@ -1,0 +1,69 @@
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  &.label-info {
+    background: $info;
+  }
+  &.label-price {
+    background: $green;
+    font-size: 1em;
+  }
+}
+
+.tooltip, .tooltip-dark {
+  cursor: help;
+}
+
+.tooltipster-light {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background: #ededed;
+  color: #333;
+}
+.tooltipster-light .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 20px;
+}
+
+
+.tooltipster-dark {
+  border-radius: 5px;
+  border: 1px solid #222222;
+  background: #333333;
+  color: #f9f9f9;
+}
+.tooltipster-dark .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 20px;
+}
+
+
+#contact {
+  position: fixed;
+  top: 0;
+  right: 5%;
+  a {
+    background: $red;
+    //border: 4px solid $dark_red;
+    border-top: 0;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 10px;
+    display: block;
+    color: $white;
+    font-weight: 500;
+  }
+}
